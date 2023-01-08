@@ -1,0 +1,480 @@
+/*NAVBAR*/
+.principalbackg{
+    background-color: rgba(219, 221, 253, 0.315);
+}
+.principalFF {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.hover1:hover{
+    color: #159e4f !important;
+}
+
+.list2{
+    margin-left: auto;
+}
+
+@media (min-width: 980px) {
+    .mediasize {
+        width: 35px !important;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    
+    
+}
+
+@media (max-width: 980px) {
+    .mediasize {
+        width: 25px !important;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+}
+
+
+/*ABOUT*/
+
+/* Media query para pantallas superiores a 980px*/
+
+@media (min-width: 980px) {
+    .principalFF {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .background1E {
+        background-image: url(./img/programing2.jpg);
+        background-size: cover;
+        width: 100%;
+        padding: 100px;
+    }
+    
+    .imagej {
+        /* background-image: url(/assets/img/Jairo\ Hernandez.JPG);
+        background-size: cover; */
+        width: 600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: 0px;
+        opacity: 100%;
+        border-radius: 50px;
+    }
+    
+    .backgrounds{
+        width: 800px;
+        height: 700px;
+        margin: 50px;
+    
+    }
+    
+    .fstitle {
+        font-size: 60px;
+    }
+
+    .mresponsive{
+        margin: auto;
+        padding-left: 35px;
+    }
+    
+    
+}
+
+/* Media query para pantallas inferiores a 980px*/
+@media (max-width: 980px) {
+    .principalFF {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .background1E{
+        background-image: url(./img/programing2.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+
+    .dresponsive {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .mresponsive {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-left: 24px;
+
+    }
+    
+    .imagej {
+        width: 280px;
+        height: 280px;
+        opacity: 100%;
+        border-radius: 50px;
+    }
+    
+    .backgrounds{
+        height: 350px;
+
+    
+    }
+    
+    .fstitle {
+        font-size: 24px;
+        
+    }
+    
+
+}
+
+/*BANNER*/
+.backcolor {
+    background-color: white;
+}
+
+@media (min-width: 980px) {
+    .bantitlestyle{
+        padding: 90px;
+        line-height: 0;
+        text-align: justify !important;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .displine {
+        display: inline;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .bantitlestyle{
+        margin: 40px;
+        padding: 10px;
+        line-height: 0;
+        text-align: justify !important;
+    }
+    
+    .displine {
+        display: inline;
+    }
+
+    .fontsres{
+        font-size: 14px;
+
+    }
+
+    
+}
+
+
+/*CARDS*/
+@media (min-width: 980px) {
+    .stylecards {
+        padding-left: 180px;
+        width: 50%;
+    }
+
+    .backgroundcards{
+        /* background-color: #212529; */
+        background-image: url(./img/backgroundcards.jpg);
+        background-size: cover;
+        width: 100%;
+        border-radius: 2%;
+        padding: 30px;
+        display: flex;
+    }
+
+    .educationimgcontainer{
+        width: 50%;
+    }
+
+    .educationimg2{
+        width: 700px;
+    }
+ /* tamano de la imagen del la catrta*/
+    .tamaimg{
+        width: 230px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .principalcontainer{
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .backgroundcards{
+       /*  background-color: #212529; */
+        background-image: url(./img/backgroundcards.jpg);
+        background-size: cover;
+        width: 100%;
+        border-radius: 2%;
+        padding: 10px;
+    }
+    .stylecards {
+        margin: 8px;
+        width: 100%;
+    }
+
+    
+    .educationimgcontainer{
+        width: 0%;
+        height: 0%;
+
+    }
+
+    .tamaimg{
+        width: 230px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .educationimg2{
+        width: 0%;
+    }
+
+    .principalcontainer{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+  
+
+    
+}
+@media (max-width: 1700px) {
+    .educationimgcontainer{
+        width: 0%;
+        height: 0%;
+
+    }
+    .educationimg2{
+        width: 0%;
+    }
+
+    .stylecards {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .principalcontainer{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+  
+
+
+}
+
+/*CARRUSEL TECHNOLOGIES*/
+
+
+@media (min-width: 980px) {
+    .backgroundtech {
+        background-color: #212529;
+/*         background: rgb(50,93,148);
+        background: radial-gradient(circle, rgba(50,93,148,1) 43%, rgba(2,102,46,1) 100%); */
+        border-radius: 2%;
+        padding-top: 40px;
+        padding-bottom: 40px ;
+/*         background-image: url(./img/Backgroundtech3.jpg);
+        background-size: cover;
+        width: 50%;
+        border-radius: 2%;
+        padding: 100px;
+        display: flex; */
+    }
+
+    .fontwc{
+        font-size: 40px;
+    }
+    .principalcontainer1{
+        margin-left: 650px;
+        margin-right: 650px;
+        margin-bottom: 50px;
+    }
+
+
+
+}
+
+@media (max-width: 1600px) {
+    .backgroundtech{
+        background-color: #212529;
+/*         background: rgb(50,93,148);
+        background: radial-gradient(circle, rgba(50,93,148,1) 43%, rgba(2,102,46,1) 100%); */
+        width: 100%;
+        border-radius: 2%;
+        padding: 10px;
+
+    }
+
+    .fontwc{
+        font-size: 30px;
+    }
+
+    .principalcontainer1{
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .backgroundtech{
+        background-color: #212529;
+/*         background: rgb(50,93,148);
+        background: radial-gradient(circle, rgba(50,93,148,1) 43%, rgba(2,102,46,1) 100%); */
+        width: 100%;
+        border-radius: 2%;
+        padding: 10px;
+
+    }
+
+    .fontwc{
+        font-size: 30px;
+    }
+
+    .principalcontainer1{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+/*FOOTER*/
+
+@media (min-width: 980px) {
+
+.imgredsocial {
+    width: 60px;
+    margin: 20px;
+}
+.imgredsocial11 {
+    width: 60px;
+    margin-left: 230px;
+    margin-right: 20px;
+}
+.footertitle {
+    text-align: center;
+    font-weight: lighter;
+}
+.footersubtitle1 {
+    text-align: center;
+    margin: 20px;
+    font-weight: lighter;
+    color: gray;
+    font-size: 18px;
+
+}
+.footersubtitle {
+    text-align: center;
+    margin: 20px;
+    font-weight: lighter;
+}
+
+.personalimg{
+    width: 150px;
+    margin-left: 40px;
+
+}
+
+.redshover:hover{
+    width: 70px ;
+}
+
+
+}
+@media (max-width: 980px) {
+.personalimg{
+    width: 120px;
+    margin: 20px;
+
+}
+.titleresp{
+    font-size: 17px;
+    padding-bottom: 15px;
+
+}
+.subtitleresp{
+    font-size: 15px;
+
+
+}
+
+.imgredresp{
+    width: 45px;
+    margin: 10px;
+}
+
+.footersubresp{
+    font-size: 15px;
+    padding-bottom: 30px;
+
+}
+.footersubresp2{
+    font-size: 13px;
+    
+
+}
+}
+
+/*Tamano de la imagen del toast*/
+
+.imgsize1{
+    width: 30px;
+}
+
+
+/*SEND ME A MESSAGE*/
+@media (min-width: 980px) {
+    .wsize {
+        width: 30% !important;
+        background-color: white;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding: 40px;
+    }
+    .logosize{
+        width: 400px;
+        background-color: black;
+        margin: 25px;
+        padding: 2px;
+    }
+
+  /*   .signborderstyle{
+        margin: 150px;
+    } */
+}
+@media (max-width: 980px) {
+    .wsize {
+        width: 90% !important;
+        background-color: white;
+        margin-bottom: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+    }
+    .logosize{
+        width: 300px;
+        background-color: black;
+        margin: 25px;
+        padding: 2px;
+    }
+}
